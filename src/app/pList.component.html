@@ -1,0 +1,8 @@
+<h3>Placementliste</h3> 
+<table>
+<tr   *ngFor="let placement of placements" (click)="select(placement)">
+<td >{{ placement.name }}</td>
+<td >{{ placement.id }}</td>
+</tr>
+</table> 
+
